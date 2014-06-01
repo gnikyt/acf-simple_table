@@ -17,7 +17,7 @@ That's it! You can now go to `Custom Fields` and add the field `Simple Table` li
 
 ## Usage
 
-`php
+```php
 <?php
 $attributes = get_field('attributes'); // the simple table field ID
 $num_rows   = sizeof($attributes);
@@ -32,15 +32,15 @@ $num_cols   = sizeof($attributes[0]);
         </tr>
     <?php } ?>
 </table>
-`
+```
 
 In the above screenshot in the Installation section, the output would be:
 
-+--------+--------+
-+ Height + 5' 11" +
-+ Weight + 210LBS +
-+ Dash   + 11.3   +
-+--------+--------+
+         |
+-------- | --------
+Height   | 5' 11"
+Weight   | 210LBS
+Dash     | 11.3
 
 Of couse this is simply an example; its an array of data so you can parse it or display it however you please.
 
