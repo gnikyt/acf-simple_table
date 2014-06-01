@@ -36,7 +36,7 @@ $num_cols   = sizeof($attributes[0]);
 
 In the above screenshot in the Installation section, the output would be:
 
-         |
+Attr.    | Value
 -------- | --------
 Height   | 5' 11"
 Weight   | 210LBS
